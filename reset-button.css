@@ -1,0 +1,19 @@
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+[type='button'],
+[type='submit'],
+[type='reset'] {
+  font: inherit;
+  overflow: visible;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  background: transparent;
+}
